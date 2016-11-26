@@ -1,0 +1,1122 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F022F61F1DE6D9580082952B /* SkyLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F022F61E1DE6D9580082952B /* SkyLiveViewController.m */; };
+		F022F6221DE6E64C0082952B /* SkyLivePlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F022F6211DE6E64C0082952B /* SkyLivePlayerView.m */; };
+		F02DA2FE1DDAD78700C51491 /* SkyStatusHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F02DA2FD1DDAD78700C51491 /* SkyStatusHelper.m */; };
+		F0306C341DE42FD2006769EB /* SkyLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0306C331DE42FD2006769EB /* SkyLoadingView.m */; };
+		F0306C371DE43D56006769EB /* SkyLoveLiveLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0306C361DE43D56006769EB /* SkyLoveLiveLayerView.m */; };
+		F036294A1DE80E4000D2E5F6 /* ColumnDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F03629491DE80E4000D2E5F6 /* ColumnDataManager.m */; };
+		F036294D1DE8152D00D2E5F6 /* ColumnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F036294C1DE8152D00D2E5F6 /* ColumnCell.m */; };
+		F03629501DE8254000D2E5F6 /* LiveListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F036294F1DE8254000D2E5F6 /* LiveListManager.m */; };
+		F05B02311DD99B22009F6681 /* CategoryInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = F05B02301DD99B22009F6681 /* CategoryInfo.plist */; };
+		F05B023C1DD99E80009F6681 /* TYPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05B02341DD99E80009F6681 /* TYPagerController.m */; };
+		F05B023D1DD99E80009F6681 /* TYTabButtonPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05B02361DD99E80009F6681 /* TYTabButtonPagerController.m */; };
+		F05B023E1DD99E80009F6681 /* TYTabPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05B02381DD99E80009F6681 /* TYTabPagerController.m */; };
+		F05B023F1DD99E80009F6681 /* TYTabTitleViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F05B023B1DD99E80009F6681 /* TYTabTitleViewCell.m */; };
+		F05B02451DD9A371009F6681 /* SkyRecommendedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05B02441DD9A371009F6681 /* SkyRecommendedViewController.m */; };
+		F05B024B1DD9A41F009F6681 /* SkyOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05B024A1DD9A41F009F6681 /* SkyOtherViewController.m */; };
+		F05B024E1DD9A5D9009F6681 /* SkyCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F05B024D1DD9A5D9009F6681 /* SkyCategoryModel.m */; };
+		F05B02511DD9B83F009F6681 /* SkyRecommendedCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F05B02501DD9B83F009F6681 /* SkyRecommendedCollectionViewLayout.m */; };
+		F05B02541DD9B94F009F6681 /* SkyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F05B02531DD9B94F009F6681 /* SkyCollectionViewCell.m */; };
+		F05FD9431DE9AC6700A255A2 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = F05FD93F1DE9AC6700A255A2 /* 1.gif */; };
+		F05FD9441DE9AC6700A255A2 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = F05FD9401DE9AC6700A255A2 /* 2.gif */; };
+		F05FD9451DE9AC6700A255A2 /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = F05FD9411DE9AC6700A255A2 /* 3.gif */; };
+		F05FD9461DE9AC6700A255A2 /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = F05FD9421DE9AC6700A255A2 /* 4.gif */; };
+		F05FD9571DE9BD9900A255A2 /* 15.gif in Resources */ = {isa = PBXBuildFile; fileRef = F05FD9471DE9BD9900A255A2 /* 15.gif */; };
+		F05FD9581DE9BD9900A255A2 /* 17.gif in Resources */ = {isa = PBXBuildFile; fileRef = F05FD9481DE9BD9900A255A2 /* 17.gif */; };
+		F05FD9591DE9BD9900A255A2 /* 19.gif in Resources */ = {isa = PBXBuildFile; fileRef = F05FD9491DE9BD9900A255A2 /* 19.gif */; };
+		F05FD95A1DE9BD9900A255A2 /* 10.gif in Resources */ = {isa = PBXBuildFile; fileRef = F05FD94A1DE9BD9900A255A2 /* 10.gif */; };
+		F05FD95B1DE9BD9900A255A2 /* 6.gif in Resources */ = {isa = PBXBuildFile; fileRef = F05FD94B1DE9BD9900A255A2 /* 6.gif */; };
+		F05FD95C1DE9BD9900A255A2 /* 13.gif in Resources */ = {isa = PBXBuildFile; fileRef = F05FD94C1DE9BD9900A255A2 /* 13.gif */; };
+		F05FD95D1DE9BD9900A255A2 /* 7.gif in Resources */ = {isa = PBXBuildFile; fileRef = F05FD94D1DE9BD9900A255A2 /* 7.gif */; };
+		F05FD95E1DE9BD9900A255A2 /* 12.gif in Resources */ = {isa = PBXBuildFile; fileRef = F05FD94E1DE9BD9900A255A2 /* 12.gif */; };
+		F05FD95F1DE9BD9900A255A2 /* 11.gif in Resources */ = {isa = PBXBuildFile; fileRef = F05FD94F1DE9BD9900A255A2 /* 11.gif */; };
+		F05FD9601DE9BD9900A255A2 /* 20.gif in Resources */ = {isa = PBXBuildFile; fileRef = F05FD9501DE9BD9900A255A2 /* 20.gif */; };
+		F05FD9611DE9BD9900A255A2 /* 16.gif in Resources */ = {isa = PBXBuildFile; fileRef = F05FD9511DE9BD9900A255A2 /* 16.gif */; };
+		F05FD9621DE9BD9900A255A2 /* 14.gif in Resources */ = {isa = PBXBuildFile; fileRef = F05FD9521DE9BD9900A255A2 /* 14.gif */; };
+		F05FD9631DE9BD9900A255A2 /* 5.gif in Resources */ = {isa = PBXBuildFile; fileRef = F05FD9531DE9BD9900A255A2 /* 5.gif */; };
+		F05FD9641DE9BD9900A255A2 /* 18.gif in Resources */ = {isa = PBXBuildFile; fileRef = F05FD9541DE9BD9900A255A2 /* 18.gif */; };
+		F05FD9651DE9BD9900A255A2 /* 8.gif in Resources */ = {isa = PBXBuildFile; fileRef = F05FD9551DE9BD9900A255A2 /* 8.gif */; };
+		F05FD9661DE9BD9900A255A2 /* 9.gif in Resources */ = {isa = PBXBuildFile; fileRef = F05FD9561DE9BD9900A255A2 /* 9.gif */; };
+		F0605C111DE923B600AC3CA5 /* SkyLoveLiveLayerBottomTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F0605C101DE923B600AC3CA5 /* SkyLoveLiveLayerBottomTool.m */; };
+		F06674931DD97EF0001F8B25 /* SkyHomeDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F06674921DD97EF0001F8B25 /* SkyHomeDataManager.m */; };
+		F0676E391DD9EA7900883451 /* SkyRecommendedHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0676E381DD9EA7900883451 /* SkyRecommendedHeadView.m */; };
+		F0676E3E1DD9F84A00883451 /* SkyHomeCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F0676E3D1DD9F84A00883451 /* SkyHomeCollectionViewFlowLayout.m */; };
+		F0676E411DD9F8CF00883451 /* SkyLoveCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0676E401DD9F8CF00883451 /* SkyLoveCollectionViewCell.m */; };
+		F0676E461DDA041000883451 /* SkyOtherDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0676E451DDA041000883451 /* SkyOtherDataManager.m */; };
+		F06F5BA91DD5C8F800A84FDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F06F5BA81DD5C8F800A84FDC /* main.m */; };
+		F06F5BAF1DD5C8F800A84FDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F06F5BAE1DD5C8F800A84FDC /* ViewController.m */; };
+		F06F5BB21DD5C8F800A84FDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06F5BB01DD5C8F800A84FDC /* Main.storyboard */; };
+		F06F5BB41DD5C8F900A84FDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06F5BB31DD5C8F900A84FDC /* Assets.xcassets */; };
+		F06F5BDC1DD5CCD900A84FDC /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F06F5BDB1DD5CCD900A84FDC /* IJKMediaFramework.framework */; };
+		F06F5C0D1DD5CDB400A84FDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F06F5BDF1DD5CDB400A84FDC /* AppDelegate.m */; };
+		F06F5C0E1DD5CDB400A84FDC /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F06F5BE41DD5CDB400A84FDC /* EntryViewController.m */; };
+		F06F5C0F1DD5CDB400A84FDC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F06F5BE61DD5CDB400A84FDC /* MainViewController.m */; };
+		F06F5C101DD5CDB400A84FDC /* SkyBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F06F5BE81DD5CDB400A84FDC /* SkyBaseViewController.m */; };
+		F06F5C111DD5CDB400A84FDC /* SkyNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F06F5BEA1DD5CDB400A84FDC /* SkyNavigationViewController.m */; };
+		F06F5C121DD5CDB400A84FDC /* UIDevice+SLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F06F5BEE1DD5CDB400A84FDC /* UIDevice+SLExtension.m */; };
+		F06F5C131DD5CDB400A84FDC /* NSObject+SkyHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F06F5BF11DD5CDB400A84FDC /* NSObject+SkyHUD.m */; };
+		F06F5C141DD5CDB400A84FDC /* NSObject+SkyToast.m in Sources */ = {isa = PBXBuildFile; fileRef = F06F5BF31DD5CDB400A84FDC /* NSObject+SkyToast.m */; };
+		F06F5C151DD5CDB400A84FDC /* UIImageView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F06F5BF61DD5CDB400A84FDC /* UIImageView+Extension.m */; };
+		F06F5C161DD5CDB400A84FDC /* UIViewController+SLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F06F5BF91DD5CDB400A84FDC /* UIViewController+SLExtension.m */; };
+		F06F5C171DD5CDB400A84FDC /* SkyRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = F06F5BFE1DD5CDB400A84FDC /* SkyRefreshGifHeader.m */; };
+		F06F5C181DD5CDB400A84FDC /* SkyHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F06F5C031DD5CDB400A84FDC /* SkyHttpClient.m */; };
+		F06F5C191DD5CDB400A84FDC /* SkyNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F06F5C051DD5CDB400A84FDC /* SkyNetworkTool.m */; };
+		F0DF68201DDB4751007C096F /* LiveListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DF681D1DDB4751007C096F /* LiveListViewController.m */; };
+		F0DF68301DDB55CC007C096F /* SkyLoveLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DF682F1DDB55CC007C096F /* SkyLoveLiveViewController.m */; };
+		F0FDF4331DD9575300B97124 /* ColumnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FDF4321DD9575300B97124 /* ColumnViewController.m */; };
+		F0FDF4361DD9576400B97124 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FDF4351DD9576400B97124 /* HomeViewController.m */; };
+		F0FDF43C1DD9579400B97124 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FDF43B1DD9579400B97124 /* ProfileViewController.m */; };
+		F29ECA76B525E3AD5D932CEC /* libPods-QuanMinTV_iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C861938DDE255992DEA95FBC /* libPods-QuanMinTV_iPhone.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B2C0FC0B598910AB10410C7 /* Pods-QuanMinTV_iPhone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuanMinTV_iPhone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuanMinTV_iPhone/Pods-QuanMinTV_iPhone.debug.xcconfig"; sourceTree = "<group>"; };
+		C861938DDE255992DEA95FBC /* libPods-QuanMinTV_iPhone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuanMinTV_iPhone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F022F61D1DE6D9580082952B /* SkyLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyLiveViewController.h; sourceTree = "<group>"; };
+		F022F61E1DE6D9580082952B /* SkyLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyLiveViewController.m; sourceTree = "<group>"; };
+		F022F6201DE6E64C0082952B /* SkyLivePlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyLivePlayerView.h; sourceTree = "<group>"; };
+		F022F6211DE6E64C0082952B /* SkyLivePlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyLivePlayerView.m; sourceTree = "<group>"; };
+		F02DA2FC1DDAD78700C51491 /* SkyStatusHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyStatusHelper.h; sourceTree = "<group>"; };
+		F02DA2FD1DDAD78700C51491 /* SkyStatusHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyStatusHelper.m; sourceTree = "<group>"; };
+		F0306C321DE42FD2006769EB /* SkyLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyLoadingView.h; sourceTree = "<group>"; };
+		F0306C331DE42FD2006769EB /* SkyLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyLoadingView.m; sourceTree = "<group>"; };
+		F0306C351DE43D56006769EB /* SkyLoveLiveLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyLoveLiveLayerView.h; sourceTree = "<group>"; };
+		F0306C361DE43D56006769EB /* SkyLoveLiveLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyLoveLiveLayerView.m; sourceTree = "<group>"; };
+		F03629481DE80E4000D2E5F6 /* ColumnDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnDataManager.h; sourceTree = "<group>"; };
+		F03629491DE80E4000D2E5F6 /* ColumnDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnDataManager.m; sourceTree = "<group>"; };
+		F036294B1DE8152D00D2E5F6 /* ColumnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnCell.h; sourceTree = "<group>"; };
+		F036294C1DE8152D00D2E5F6 /* ColumnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnCell.m; sourceTree = "<group>"; };
+		F036294E1DE8254000D2E5F6 /* LiveListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveListManager.h; sourceTree = "<group>"; };
+		F036294F1DE8254000D2E5F6 /* LiveListManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveListManager.m; sourceTree = "<group>"; };
+		F05B02301DD99B22009F6681 /* CategoryInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CategoryInfo.plist; sourceTree = "<group>"; };
+		F05B02331DD99E80009F6681 /* TYPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPagerController.h; sourceTree = "<group>"; };
+		F05B02341DD99E80009F6681 /* TYPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPagerController.m; sourceTree = "<group>"; };
+		F05B02351DD99E80009F6681 /* TYTabButtonPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabButtonPagerController.h; sourceTree = "<group>"; };
+		F05B02361DD99E80009F6681 /* TYTabButtonPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabButtonPagerController.m; sourceTree = "<group>"; };
+		F05B02371DD99E80009F6681 /* TYTabPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerController.h; sourceTree = "<group>"; };
+		F05B02381DD99E80009F6681 /* TYTabPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerController.m; sourceTree = "<group>"; };
+		F05B02391DD99E80009F6681 /* TYTabTitleCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabTitleCellProtocol.h; sourceTree = "<group>"; };
+		F05B023A1DD99E80009F6681 /* TYTabTitleViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabTitleViewCell.h; sourceTree = "<group>"; };
+		F05B023B1DD99E80009F6681 /* TYTabTitleViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabTitleViewCell.m; sourceTree = "<group>"; };
+		F05B02431DD9A371009F6681 /* SkyRecommendedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyRecommendedViewController.h; sourceTree = "<group>"; };
+		F05B02441DD9A371009F6681 /* SkyRecommendedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyRecommendedViewController.m; sourceTree = "<group>"; };
+		F05B02491DD9A41F009F6681 /* SkyOtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyOtherViewController.h; sourceTree = "<group>"; };
+		F05B024A1DD9A41F009F6681 /* SkyOtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyOtherViewController.m; sourceTree = "<group>"; };
+		F05B024C1DD9A5D9009F6681 /* SkyCategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyCategoryModel.h; sourceTree = "<group>"; };
+		F05B024D1DD9A5D9009F6681 /* SkyCategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyCategoryModel.m; sourceTree = "<group>"; };
+		F05B024F1DD9B83F009F6681 /* SkyRecommendedCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyRecommendedCollectionViewLayout.h; sourceTree = "<group>"; };
+		F05B02501DD9B83F009F6681 /* SkyRecommendedCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyRecommendedCollectionViewLayout.m; sourceTree = "<group>"; };
+		F05B02521DD9B94F009F6681 /* SkyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyCollectionViewCell.h; sourceTree = "<group>"; };
+		F05B02531DD9B94F009F6681 /* SkyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyCollectionViewCell.m; sourceTree = "<group>"; };
+		F05FD93F1DE9AC6700A255A2 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		F05FD9401DE9AC6700A255A2 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
+		F05FD9411DE9AC6700A255A2 /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
+		F05FD9421DE9AC6700A255A2 /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.gif; sourceTree = "<group>"; };
+		F05FD9471DE9BD9900A255A2 /* 15.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 15.gif; sourceTree = "<group>"; };
+		F05FD9481DE9BD9900A255A2 /* 17.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 17.gif; sourceTree = "<group>"; };
+		F05FD9491DE9BD9900A255A2 /* 19.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 19.gif; sourceTree = "<group>"; };
+		F05FD94A1DE9BD9900A255A2 /* 10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 10.gif; sourceTree = "<group>"; };
+		F05FD94B1DE9BD9900A255A2 /* 6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 6.gif; sourceTree = "<group>"; };
+		F05FD94C1DE9BD9900A255A2 /* 13.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 13.gif; sourceTree = "<group>"; };
+		F05FD94D1DE9BD9900A255A2 /* 7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 7.gif; sourceTree = "<group>"; };
+		F05FD94E1DE9BD9900A255A2 /* 12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 12.gif; sourceTree = "<group>"; };
+		F05FD94F1DE9BD9900A255A2 /* 11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 11.gif; sourceTree = "<group>"; };
+		F05FD9501DE9BD9900A255A2 /* 20.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 20.gif; sourceTree = "<group>"; };
+		F05FD9511DE9BD9900A255A2 /* 16.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 16.gif; sourceTree = "<group>"; };
+		F05FD9521DE9BD9900A255A2 /* 14.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 14.gif; sourceTree = "<group>"; };
+		F05FD9531DE9BD9900A255A2 /* 5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 5.gif; sourceTree = "<group>"; };
+		F05FD9541DE9BD9900A255A2 /* 18.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 18.gif; sourceTree = "<group>"; };
+		F05FD9551DE9BD9900A255A2 /* 8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 8.gif; sourceTree = "<group>"; };
+		F05FD9561DE9BD9900A255A2 /* 9.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 9.gif; sourceTree = "<group>"; };
+		F0605C0F1DE923B600AC3CA5 /* SkyLoveLiveLayerBottomTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyLoveLiveLayerBottomTool.h; sourceTree = "<group>"; };
+		F0605C101DE923B600AC3CA5 /* SkyLoveLiveLayerBottomTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyLoveLiveLayerBottomTool.m; sourceTree = "<group>"; };
+		F06674911DD97EF0001F8B25 /* SkyHomeDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyHomeDataManager.h; sourceTree = "<group>"; };
+		F06674921DD97EF0001F8B25 /* SkyHomeDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyHomeDataManager.m; sourceTree = "<group>"; };
+		F0676E371DD9EA7900883451 /* SkyRecommendedHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyRecommendedHeadView.h; sourceTree = "<group>"; };
+		F0676E381DD9EA7900883451 /* SkyRecommendedHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyRecommendedHeadView.m; sourceTree = "<group>"; };
+		F0676E3C1DD9F84A00883451 /* SkyHomeCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyHomeCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		F0676E3D1DD9F84A00883451 /* SkyHomeCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyHomeCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		F0676E3F1DD9F8CF00883451 /* SkyLoveCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyLoveCollectionViewCell.h; sourceTree = "<group>"; };
+		F0676E401DD9F8CF00883451 /* SkyLoveCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyLoveCollectionViewCell.m; sourceTree = "<group>"; };
+		F0676E441DDA041000883451 /* SkyOtherDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyOtherDataManager.h; sourceTree = "<group>"; };
+		F0676E451DDA041000883451 /* SkyOtherDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyOtherDataManager.m; sourceTree = "<group>"; };
+		F06F5BA41DD5C8F800A84FDC /* QuanMinTV_iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuanMinTV_iPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06F5BA81DD5C8F800A84FDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F06F5BAD1DD5C8F800A84FDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F06F5BAE1DD5C8F800A84FDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F06F5BB11DD5C8F800A84FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F06F5BB31DD5C8F900A84FDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F06F5BB81DD5C8F900A84FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06F5BC11DD5C8F900A84FDC /* QuanMinTV_iPhoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuanMinTV_iPhoneTests.m; sourceTree = "<group>"; };
+		F06F5BC31DD5C8F900A84FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06F5BCC1DD5C8F900A84FDC /* QuanMinTV_iPhoneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuanMinTV_iPhoneUITests.m; sourceTree = "<group>"; };
+		F06F5BCE1DD5C8F900A84FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06F5BDA1DD5CB1E00A84FDC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F06F5BDB1DD5CCD900A84FDC /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = QuanMinTV_iPhone/IJKMediaFramework.framework; sourceTree = "<group>"; };
+		F06F5BDE1DD5CDB400A84FDC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F06F5BDF1DD5CDB400A84FDC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F06F5BE31DD5CDB400A84FDC /* EntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
+		F06F5BE41DD5CDB400A84FDC /* EntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
+		F06F5BE51DD5CDB400A84FDC /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F06F5BE61DD5CDB400A84FDC /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F06F5BE71DD5CDB400A84FDC /* SkyBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyBaseViewController.h; sourceTree = "<group>"; };
+		F06F5BE81DD5CDB400A84FDC /* SkyBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyBaseViewController.m; sourceTree = "<group>"; };
+		F06F5BE91DD5CDB400A84FDC /* SkyNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyNavigationViewController.h; sourceTree = "<group>"; };
+		F06F5BEA1DD5CDB400A84FDC /* SkyNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyNavigationViewController.m; sourceTree = "<group>"; };
+		F06F5BED1DD5CDB400A84FDC /* UIDevice+SLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+SLExtension.h"; sourceTree = "<group>"; };
+		F06F5BEE1DD5CDB400A84FDC /* UIDevice+SLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+SLExtension.m"; sourceTree = "<group>"; };
+		F06F5BF01DD5CDB400A84FDC /* NSObject+SkyHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SkyHUD.h"; sourceTree = "<group>"; };
+		F06F5BF11DD5CDB400A84FDC /* NSObject+SkyHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SkyHUD.m"; sourceTree = "<group>"; };
+		F06F5BF21DD5CDB400A84FDC /* NSObject+SkyToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SkyToast.h"; sourceTree = "<group>"; };
+		F06F5BF31DD5CDB400A84FDC /* NSObject+SkyToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SkyToast.m"; sourceTree = "<group>"; };
+		F06F5BF51DD5CDB400A84FDC /* UIImageView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extension.h"; sourceTree = "<group>"; };
+		F06F5BF61DD5CDB400A84FDC /* UIImageView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extension.m"; sourceTree = "<group>"; };
+		F06F5BF81DD5CDB400A84FDC /* UIViewController+SLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SLExtension.h"; sourceTree = "<group>"; };
+		F06F5BF91DD5CDB400A84FDC /* UIViewController+SLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SLExtension.m"; sourceTree = "<group>"; };
+		F06F5BFD1DD5CDB400A84FDC /* SkyRefreshGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyRefreshGifHeader.h; sourceTree = "<group>"; };
+		F06F5BFE1DD5CDB400A84FDC /* SkyRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyRefreshGifHeader.m; sourceTree = "<group>"; };
+		F06F5C021DD5CDB400A84FDC /* SkyHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyHttpClient.h; sourceTree = "<group>"; };
+		F06F5C031DD5CDB400A84FDC /* SkyHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyHttpClient.m; sourceTree = "<group>"; };
+		F06F5C041DD5CDB400A84FDC /* SkyNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyNetworkTool.h; sourceTree = "<group>"; };
+		F06F5C051DD5CDB400A84FDC /* SkyNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyNetworkTool.m; sourceTree = "<group>"; };
+		F06F5C081DD5CDB400A84FDC /* NotificationMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationMacro.h; sourceTree = "<group>"; };
+		F06F5C091DD5CDB400A84FDC /* PublicDefColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicDefColor.h; sourceTree = "<group>"; };
+		F06F5C0A1DD5CDB400A84FDC /* PublicMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicMarco.h; sourceTree = "<group>"; };
+		F0DF681C1DDB4751007C096F /* LiveListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveListViewController.h; sourceTree = "<group>"; };
+		F0DF681D1DDB4751007C096F /* LiveListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveListViewController.m; sourceTree = "<group>"; };
+		F0DF682E1DDB55CC007C096F /* SkyLoveLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyLoveLiveViewController.h; sourceTree = "<group>"; };
+		F0DF682F1DDB55CC007C096F /* SkyLoveLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyLoveLiveViewController.m; sourceTree = "<group>"; };
+		F0FDF4311DD9575300B97124 /* ColumnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnViewController.h; sourceTree = "<group>"; };
+		F0FDF4321DD9575300B97124 /* ColumnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnViewController.m; sourceTree = "<group>"; };
+		F0FDF4341DD9576400B97124 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F0FDF4351DD9576400B97124 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F0FDF43A1DD9579400B97124 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		F0FDF43B1DD9579400B97124 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		FA2917090A614A339B1E5587 /* Pods-QuanMinTV_iPhone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuanMinTV_iPhone.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuanMinTV_iPhone/Pods-QuanMinTV_iPhone.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F06F5BA11DD5C8F800A84FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06F5BDC1DD5CCD900A84FDC /* IJKMediaFramework.framework in Frameworks */,
+				F29ECA76B525E3AD5D932CEC /* libPods-QuanMinTV_iPhone.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A222FFF942C470929BBFF57E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B2C0FC0B598910AB10410C7 /* Pods-QuanMinTV_iPhone.debug.xcconfig */,
+				FA2917090A614A339B1E5587 /* Pods-QuanMinTV_iPhone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F05B02321DD99E80009F6681 /* TYPagerController */ = {
+			isa = PBXGroup;
+			children = (
+				F05B02331DD99E80009F6681 /* TYPagerController.h */,
+				F05B02341DD99E80009F6681 /* TYPagerController.m */,
+				F05B02351DD99E80009F6681 /* TYTabButtonPagerController.h */,
+				F05B02361DD99E80009F6681 /* TYTabButtonPagerController.m */,
+				F05B02371DD99E80009F6681 /* TYTabPagerController.h */,
+				F05B02381DD99E80009F6681 /* TYTabPagerController.m */,
+				F05B02391DD99E80009F6681 /* TYTabTitleCellProtocol.h */,
+				F05B023A1DD99E80009F6681 /* TYTabTitleViewCell.h */,
+				F05B023B1DD99E80009F6681 /* TYTabTitleViewCell.m */,
+			);
+			path = TYPagerController;
+			sourceTree = "<group>";
+		};
+		F06F5B9B1DD5C8F800A84FDC = {
+			isa = PBXGroup;
+			children = (
+				F06F5BA61DD5C8F800A84FDC /* QuanMinTV_iPhone */,
+				F06F5BC01DD5C8F900A84FDC /* QuanMinTV_iPhoneTests */,
+				F06F5BCB1DD5C8F900A84FDC /* QuanMinTV_iPhoneUITests */,
+				F06F5BA51DD5C8F800A84FDC /* Products */,
+				A222FFF942C470929BBFF57E /* Pods */,
+				F4B9EC97E7A470FBFD144560 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F06F5BA51DD5C8F800A84FDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F06F5BA41DD5C8F800A84FDC /* QuanMinTV_iPhone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F06F5BA61DD5C8F800A84FDC /* QuanMinTV_iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				F06F5BDD1DD5CDB400A84FDC /* AppDelegate */,
+				F06F5BE01DD5CDB400A84FDC /* Class */,
+				F06F5C1A1DD5CDE100A84FDC /* Resource */,
+				F06F5BAD1DD5C8F800A84FDC /* ViewController.h */,
+				F06F5BAE1DD5C8F800A84FDC /* ViewController.m */,
+				F06F5BB01DD5C8F800A84FDC /* Main.storyboard */,
+				F06F5BB31DD5C8F900A84FDC /* Assets.xcassets */,
+				F06F5BB81DD5C8F900A84FDC /* Info.plist */,
+				F05B02301DD99B22009F6681 /* CategoryInfo.plist */,
+				F06F5BA71DD5C8F800A84FDC /* Supporting Files */,
+			);
+			path = QuanMinTV_iPhone;
+			sourceTree = "<group>";
+		};
+		F06F5BA71DD5C8F800A84FDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F06F5BA81DD5C8F800A84FDC /* main.m */,
+				F06F5BDA1DD5CB1E00A84FDC /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F06F5BC01DD5C8F900A84FDC /* QuanMinTV_iPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				F06F5BC11DD5C8F900A84FDC /* QuanMinTV_iPhoneTests.m */,
+				F06F5BC31DD5C8F900A84FDC /* Info.plist */,
+			);
+			path = QuanMinTV_iPhoneTests;
+			sourceTree = "<group>";
+		};
+		F06F5BCB1DD5C8F900A84FDC /* QuanMinTV_iPhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F06F5BCC1DD5C8F900A84FDC /* QuanMinTV_iPhoneUITests.m */,
+				F06F5BCE1DD5C8F900A84FDC /* Info.plist */,
+			);
+			path = QuanMinTV_iPhoneUITests;
+			sourceTree = "<group>";
+		};
+		F06F5BDD1DD5CDB400A84FDC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F06F5BDE1DD5CDB400A84FDC /* AppDelegate.h */,
+				F06F5BDF1DD5CDB400A84FDC /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F06F5BE01DD5CDB400A84FDC /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				F06F5BE11DD5CDB400A84FDC /* General */,
+				F06F5C001DD5CDB400A84FDC /* Helpers */,
+				F06F5C071DD5CDB400A84FDC /* Macro */,
+				F06F5C0B1DD5CDB400A84FDC /* Sections */,
+				F06F5C0C1DD5CDB400A84FDC /* Vendors */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		F06F5BE11DD5CDB400A84FDC /* General */ = {
+			isa = PBXGroup;
+			children = (
+				F06F5BE21DD5CDB400A84FDC /* Base */,
+				F06F5BEB1DD5CDB400A84FDC /* Categories */,
+				F06F5BFA1DD5CDB400A84FDC /* Core */,
+				F06F5BFB1DD5CDB400A84FDC /* Models */,
+				F06F5BFC1DD5CDB400A84FDC /* Refresh */,
+				F06F5BFF1DD5CDB400A84FDC /* Views */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		F06F5BE21DD5CDB400A84FDC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F06F5BE31DD5CDB400A84FDC /* EntryViewController.h */,
+				F06F5BE41DD5CDB400A84FDC /* EntryViewController.m */,
+				F06F5BE51DD5CDB400A84FDC /* MainViewController.h */,
+				F06F5BE61DD5CDB400A84FDC /* MainViewController.m */,
+				F06F5BE71DD5CDB400A84FDC /* SkyBaseViewController.h */,
+				F06F5BE81DD5CDB400A84FDC /* SkyBaseViewController.m */,
+				F06F5BE91DD5CDB400A84FDC /* SkyNavigationViewController.h */,
+				F06F5BEA1DD5CDB400A84FDC /* SkyNavigationViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F06F5BEB1DD5CDB400A84FDC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F06F5BEC1DD5CDB400A84FDC /* Device */,
+				F06F5BEF1DD5CDB400A84FDC /* NSObject */,
+				F06F5BF41DD5CDB400A84FDC /* UIimageView */,
+				F06F5BF71DD5CDB400A84FDC /* ViewController */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		F06F5BEC1DD5CDB400A84FDC /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				F06F5BED1DD5CDB400A84FDC /* UIDevice+SLExtension.h */,
+				F06F5BEE1DD5CDB400A84FDC /* UIDevice+SLExtension.m */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		F06F5BEF1DD5CDB400A84FDC /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				F06F5BF01DD5CDB400A84FDC /* NSObject+SkyHUD.h */,
+				F06F5BF11DD5CDB400A84FDC /* NSObject+SkyHUD.m */,
+				F06F5BF21DD5CDB400A84FDC /* NSObject+SkyToast.h */,
+				F06F5BF31DD5CDB400A84FDC /* NSObject+SkyToast.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		F06F5BF41DD5CDB400A84FDC /* UIimageView */ = {
+			isa = PBXGroup;
+			children = (
+				F06F5BF51DD5CDB400A84FDC /* UIImageView+Extension.h */,
+				F06F5BF61DD5CDB400A84FDC /* UIImageView+Extension.m */,
+			);
+			path = UIimageView;
+			sourceTree = "<group>";
+		};
+		F06F5BF71DD5CDB400A84FDC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F06F5BF81DD5CDB400A84FDC /* UIViewController+SLExtension.h */,
+				F06F5BF91DD5CDB400A84FDC /* UIViewController+SLExtension.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F06F5BFA1DD5CDB400A84FDC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F06F5BFB1DD5CDB400A84FDC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F06F5BFC1DD5CDB400A84FDC /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				F06F5BFD1DD5CDB400A84FDC /* SkyRefreshGifHeader.h */,
+				F06F5BFE1DD5CDB400A84FDC /* SkyRefreshGifHeader.m */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		F06F5BFF1DD5CDB400A84FDC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F05B02521DD9B94F009F6681 /* SkyCollectionViewCell.h */,
+				F05B02531DD9B94F009F6681 /* SkyCollectionViewCell.m */,
+				F0676E3F1DD9F8CF00883451 /* SkyLoveCollectionViewCell.h */,
+				F0676E401DD9F8CF00883451 /* SkyLoveCollectionViewCell.m */,
+				F0306C321DE42FD2006769EB /* SkyLoadingView.h */,
+				F0306C331DE42FD2006769EB /* SkyLoadingView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F06F5C001DD5CDB400A84FDC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F06F5C011DD5CDB400A84FDC /* Https */,
+				F06F5C061DD5CDB400A84FDC /* Public */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F06F5C011DD5CDB400A84FDC /* Https */ = {
+			isa = PBXGroup;
+			children = (
+				F06F5C021DD5CDB400A84FDC /* SkyHttpClient.h */,
+				F06F5C031DD5CDB400A84FDC /* SkyHttpClient.m */,
+				F06F5C041DD5CDB400A84FDC /* SkyNetworkTool.h */,
+				F06F5C051DD5CDB400A84FDC /* SkyNetworkTool.m */,
+			);
+			path = Https;
+			sourceTree = "<group>";
+		};
+		F06F5C061DD5CDB400A84FDC /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				F02DA2FC1DDAD78700C51491 /* SkyStatusHelper.h */,
+				F02DA2FD1DDAD78700C51491 /* SkyStatusHelper.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		F06F5C071DD5CDB400A84FDC /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				F06F5C081DD5CDB400A84FDC /* NotificationMacro.h */,
+				F06F5C091DD5CDB400A84FDC /* PublicDefColor.h */,
+				F06F5C0A1DD5CDB400A84FDC /* PublicMarco.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		F06F5C0B1DD5CDB400A84FDC /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				F0DF68251DDB55A6007C096F /* Live */,
+				F0FDF4251DD9572100B97124 /* Home */,
+				F0FDF4211DD9572100B97124 /* Column */,
+				F0DF681A1DDB4751007C096F /* LiveTabbar */,
+				F0FDF42D1DD9572100B97124 /* Profile */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		F06F5C0C1DD5CDB400A84FDC /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				F05B02321DD99E80009F6681 /* TYPagerController */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		F06F5C1A1DD5CDE100A84FDC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F05FD9471DE9BD9900A255A2 /* 15.gif */,
+				F05FD9481DE9BD9900A255A2 /* 17.gif */,
+				F05FD9491DE9BD9900A255A2 /* 19.gif */,
+				F05FD94A1DE9BD9900A255A2 /* 10.gif */,
+				F05FD94B1DE9BD9900A255A2 /* 6.gif */,
+				F05FD94C1DE9BD9900A255A2 /* 13.gif */,
+				F05FD94D1DE9BD9900A255A2 /* 7.gif */,
+				F05FD94E1DE9BD9900A255A2 /* 12.gif */,
+				F05FD94F1DE9BD9900A255A2 /* 11.gif */,
+				F05FD9501DE9BD9900A255A2 /* 20.gif */,
+				F05FD9511DE9BD9900A255A2 /* 16.gif */,
+				F05FD9521DE9BD9900A255A2 /* 14.gif */,
+				F05FD9531DE9BD9900A255A2 /* 5.gif */,
+				F05FD9541DE9BD9900A255A2 /* 18.gif */,
+				F05FD9551DE9BD9900A255A2 /* 8.gif */,
+				F05FD9561DE9BD9900A255A2 /* 9.gif */,
+				F05FD93F1DE9AC6700A255A2 /* 1.gif */,
+				F05FD9401DE9AC6700A255A2 /* 2.gif */,
+				F05FD9411DE9AC6700A255A2 /* 3.gif */,
+				F05FD9421DE9AC6700A255A2 /* 4.gif */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F0DF681A1DDB4751007C096F /* LiveTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				F0DF681B1DDB4751007C096F /* Controller */,
+				F0DF681E1DDB4751007C096F /* Model */,
+				F0DF681F1DDB4751007C096F /* View */,
+			);
+			path = LiveTabbar;
+			sourceTree = "<group>";
+		};
+		F0DF681B1DDB4751007C096F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F0DF681C1DDB4751007C096F /* LiveListViewController.h */,
+				F0DF681D1DDB4751007C096F /* LiveListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F0DF681E1DDB4751007C096F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F036294E1DE8254000D2E5F6 /* LiveListManager.h */,
+				F036294F1DE8254000D2E5F6 /* LiveListManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0DF681F1DDB4751007C096F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0DF68251DDB55A6007C096F /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				F0DF68261DDB55A6007C096F /* LoveLive */,
+				F0DF682A1DDB55A6007C096F /* OtherLive */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		F0DF68261DDB55A6007C096F /* LoveLive */ = {
+			isa = PBXGroup;
+			children = (
+				F0DF68271DDB55A6007C096F /* Controller */,
+				F0DF68281DDB55A6007C096F /* Model */,
+				F0DF68291DDB55A6007C096F /* View */,
+			);
+			path = LoveLive;
+			sourceTree = "<group>";
+		};
+		F0DF68271DDB55A6007C096F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F0DF682E1DDB55CC007C096F /* SkyLoveLiveViewController.h */,
+				F0DF682F1DDB55CC007C096F /* SkyLoveLiveViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F0DF68281DDB55A6007C096F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0DF68291DDB55A6007C096F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0306C351DE43D56006769EB /* SkyLoveLiveLayerView.h */,
+				F0306C361DE43D56006769EB /* SkyLoveLiveLayerView.m */,
+				F0605C0F1DE923B600AC3CA5 /* SkyLoveLiveLayerBottomTool.h */,
+				F0605C101DE923B600AC3CA5 /* SkyLoveLiveLayerBottomTool.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0DF682A1DDB55A6007C096F /* OtherLive */ = {
+			isa = PBXGroup;
+			children = (
+				F0DF682B1DDB55A6007C096F /* Controller */,
+				F0DF682C1DDB55A6007C096F /* Model */,
+				F0DF682D1DDB55A6007C096F /* View */,
+			);
+			path = OtherLive;
+			sourceTree = "<group>";
+		};
+		F0DF682B1DDB55A6007C096F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F022F61D1DE6D9580082952B /* SkyLiveViewController.h */,
+				F022F61E1DE6D9580082952B /* SkyLiveViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F0DF682C1DDB55A6007C096F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0DF682D1DDB55A6007C096F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F022F6201DE6E64C0082952B /* SkyLivePlayerView.h */,
+				F022F6211DE6E64C0082952B /* SkyLivePlayerView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0FDF4211DD9572100B97124 /* Column */ = {
+			isa = PBXGroup;
+			children = (
+				F0FDF4221DD9572100B97124 /* Controller */,
+				F0FDF4231DD9572100B97124 /* Model */,
+				F0FDF4241DD9572100B97124 /* View */,
+			);
+			path = Column;
+			sourceTree = "<group>";
+		};
+		F0FDF4221DD9572100B97124 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F0FDF4311DD9575300B97124 /* ColumnViewController.h */,
+				F0FDF4321DD9575300B97124 /* ColumnViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F0FDF4231DD9572100B97124 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F03629481DE80E4000D2E5F6 /* ColumnDataManager.h */,
+				F03629491DE80E4000D2E5F6 /* ColumnDataManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0FDF4241DD9572100B97124 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F036294B1DE8152D00D2E5F6 /* ColumnCell.h */,
+				F036294C1DE8152D00D2E5F6 /* ColumnCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0FDF4251DD9572100B97124 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F0FDF4261DD9572100B97124 /* Controller */,
+				F0FDF4271DD9572100B97124 /* Model */,
+				F0FDF4281DD9572100B97124 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F0FDF4261DD9572100B97124 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F0FDF4341DD9576400B97124 /* HomeViewController.h */,
+				F0FDF4351DD9576400B97124 /* HomeViewController.m */,
+				F05B02431DD9A371009F6681 /* SkyRecommendedViewController.h */,
+				F05B02441DD9A371009F6681 /* SkyRecommendedViewController.m */,
+				F05B02491DD9A41F009F6681 /* SkyOtherViewController.h */,
+				F05B024A1DD9A41F009F6681 /* SkyOtherViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F0FDF4271DD9572100B97124 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F06674911DD97EF0001F8B25 /* SkyHomeDataManager.h */,
+				F06674921DD97EF0001F8B25 /* SkyHomeDataManager.m */,
+				F05B024C1DD9A5D9009F6681 /* SkyCategoryModel.h */,
+				F05B024D1DD9A5D9009F6681 /* SkyCategoryModel.m */,
+				F0676E441DDA041000883451 /* SkyOtherDataManager.h */,
+				F0676E451DDA041000883451 /* SkyOtherDataManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0FDF4281DD9572100B97124 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F05B024F1DD9B83F009F6681 /* SkyRecommendedCollectionViewLayout.h */,
+				F05B02501DD9B83F009F6681 /* SkyRecommendedCollectionViewLayout.m */,
+				F0676E371DD9EA7900883451 /* SkyRecommendedHeadView.h */,
+				F0676E381DD9EA7900883451 /* SkyRecommendedHeadView.m */,
+				F0676E3C1DD9F84A00883451 /* SkyHomeCollectionViewFlowLayout.h */,
+				F0676E3D1DD9F84A00883451 /* SkyHomeCollectionViewFlowLayout.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0FDF42D1DD9572100B97124 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F0FDF42E1DD9572100B97124 /* Controller */,
+				F0FDF42F1DD9572100B97124 /* Model */,
+				F0FDF4301DD9572100B97124 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		F0FDF42E1DD9572100B97124 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F0FDF43A1DD9579400B97124 /* ProfileViewController.h */,
+				F0FDF43B1DD9579400B97124 /* ProfileViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F0FDF42F1DD9572100B97124 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0FDF4301DD9572100B97124 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4B9EC97E7A470FBFD144560 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F06F5BDB1DD5CCD900A84FDC /* IJKMediaFramework.framework */,
+				C861938DDE255992DEA95FBC /* libPods-QuanMinTV_iPhone.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F06F5BA31DD5C8F800A84FDC /* QuanMinTV_iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06F5BD11DD5C8F900A84FDC /* Build configuration list for PBXNativeTarget "QuanMinTV_iPhone" */;
+			buildPhases = (
+				13D2F47FF107A7F222B1D9D0 /* 📦 Check Pods Manifest.lock */,
+				F06F5BA01DD5C8F800A84FDC /* Sources */,
+				F06F5BA11DD5C8F800A84FDC /* Frameworks */,
+				F06F5BA21DD5C8F800A84FDC /* Resources */,
+				BC17450A8E9BAD58E7815267 /* 📦 Embed Pods Frameworks */,
+				272AA729AA4B6C20CB004E4E /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuanMinTV_iPhone;
+			productName = QuanMinTV_iPhone;
+			productReference = F06F5BA41DD5C8F800A84FDC /* QuanMinTV_iPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F06F5B9C1DD5C8F800A84FDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sky;
+				TargetAttributes = {
+					F06F5BA31DD5C8F800A84FDC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M5L265JNC2;
+					};
+				};
+			};
+			buildConfigurationList = F06F5B9F1DD5C8F800A84FDC /* Build configuration list for PBXProject "QuanMinTV_iPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F06F5B9B1DD5C8F800A84FDC;
+			productRefGroup = F06F5BA51DD5C8F800A84FDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F06F5BA31DD5C8F800A84FDC /* QuanMinTV_iPhone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F06F5BA21DD5C8F800A84FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05FD95C1DE9BD9900A255A2 /* 13.gif in Resources */,
+				F05FD9611DE9BD9900A255A2 /* 16.gif in Resources */,
+				F05FD9591DE9BD9900A255A2 /* 19.gif in Resources */,
+				F05FD9581DE9BD9900A255A2 /* 17.gif in Resources */,
+				F05FD9571DE9BD9900A255A2 /* 15.gif in Resources */,
+				F05FD95B1DE9BD9900A255A2 /* 6.gif in Resources */,
+				F05FD95E1DE9BD9900A255A2 /* 12.gif in Resources */,
+				F05FD95A1DE9BD9900A255A2 /* 10.gif in Resources */,
+				F05FD9451DE9AC6700A255A2 /* 3.gif in Resources */,
+				F06F5BB41DD5C8F900A84FDC /* Assets.xcassets in Resources */,
+				F05FD9631DE9BD9900A255A2 /* 5.gif in Resources */,
+				F05FD9651DE9BD9900A255A2 /* 8.gif in Resources */,
+				F05FD95D1DE9BD9900A255A2 /* 7.gif in Resources */,
+				F05FD9661DE9BD9900A255A2 /* 9.gif in Resources */,
+				F05FD9621DE9BD9900A255A2 /* 14.gif in Resources */,
+				F05FD9441DE9AC6700A255A2 /* 2.gif in Resources */,
+				F05FD9641DE9BD9900A255A2 /* 18.gif in Resources */,
+				F05B02311DD99B22009F6681 /* CategoryInfo.plist in Resources */,
+				F05FD95F1DE9BD9900A255A2 /* 11.gif in Resources */,
+				F05FD9431DE9AC6700A255A2 /* 1.gif in Resources */,
+				F06F5BB21DD5C8F800A84FDC /* Main.storyboard in Resources */,
+				F05FD9601DE9BD9900A255A2 /* 20.gif in Resources */,
+				F05FD9461DE9AC6700A255A2 /* 4.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13D2F47FF107A7F222B1D9D0 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		272AA729AA4B6C20CB004E4E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuanMinTV_iPhone/Pods-QuanMinTV_iPhone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC17450A8E9BAD58E7815267 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuanMinTV_iPhone/Pods-QuanMinTV_iPhone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F06F5BA01DD5C8F800A84FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05B02511DD9B83F009F6681 /* SkyRecommendedCollectionViewLayout.m in Sources */,
+				F0676E461DDA041000883451 /* SkyOtherDataManager.m in Sources */,
+				F05B023E1DD99E80009F6681 /* TYTabPagerController.m in Sources */,
+				F06F5BAF1DD5C8F800A84FDC /* ViewController.m in Sources */,
+				F06F5C141DD5CDB400A84FDC /* NSObject+SkyToast.m in Sources */,
+				F022F6221DE6E64C0082952B /* SkyLivePlayerView.m in Sources */,
+				F05B023C1DD99E80009F6681 /* TYPagerController.m in Sources */,
+				F0DF68201DDB4751007C096F /* LiveListViewController.m in Sources */,
+				F06F5C171DD5CDB400A84FDC /* SkyRefreshGifHeader.m in Sources */,
+				F0FDF43C1DD9579400B97124 /* ProfileViewController.m in Sources */,
+				F06F5C0E1DD5CDB400A84FDC /* EntryViewController.m in Sources */,
+				F05B024E1DD9A5D9009F6681 /* SkyCategoryModel.m in Sources */,
+				F06F5BA91DD5C8F800A84FDC /* main.m in Sources */,
+				F06F5C0F1DD5CDB400A84FDC /* MainViewController.m in Sources */,
+				F03629501DE8254000D2E5F6 /* LiveListManager.m in Sources */,
+				F05B024B1DD9A41F009F6681 /* SkyOtherViewController.m in Sources */,
+				F06F5C0D1DD5CDB400A84FDC /* AppDelegate.m in Sources */,
+				F05B023D1DD99E80009F6681 /* TYTabButtonPagerController.m in Sources */,
+				F06F5C101DD5CDB400A84FDC /* SkyBaseViewController.m in Sources */,
+				F0605C111DE923B600AC3CA5 /* SkyLoveLiveLayerBottomTool.m in Sources */,
+				F05B02541DD9B94F009F6681 /* SkyCollectionViewCell.m in Sources */,
+				F0FDF4361DD9576400B97124 /* HomeViewController.m in Sources */,
+				F06F5C151DD5CDB400A84FDC /* UIImageView+Extension.m in Sources */,
+				F0676E411DD9F8CF00883451 /* SkyLoveCollectionViewCell.m in Sources */,
+				F022F61F1DE6D9580082952B /* SkyLiveViewController.m in Sources */,
+				F0306C371DE43D56006769EB /* SkyLoveLiveLayerView.m in Sources */,
+				F036294A1DE80E4000D2E5F6 /* ColumnDataManager.m in Sources */,
+				F0676E3E1DD9F84A00883451 /* SkyHomeCollectionViewFlowLayout.m in Sources */,
+				F05B023F1DD99E80009F6681 /* TYTabTitleViewCell.m in Sources */,
+				F06F5C131DD5CDB400A84FDC /* NSObject+SkyHUD.m in Sources */,
+				F06F5C161DD5CDB400A84FDC /* UIViewController+SLExtension.m in Sources */,
+				F0DF68301DDB55CC007C096F /* SkyLoveLiveViewController.m in Sources */,
+				F06F5C191DD5CDB400A84FDC /* SkyNetworkTool.m in Sources */,
+				F06F5C121DD5CDB400A84FDC /* UIDevice+SLExtension.m in Sources */,
+				F06674931DD97EF0001F8B25 /* SkyHomeDataManager.m in Sources */,
+				F0676E391DD9EA7900883451 /* SkyRecommendedHeadView.m in Sources */,
+				F036294D1DE8152D00D2E5F6 /* ColumnCell.m in Sources */,
+				F0306C341DE42FD2006769EB /* SkyLoadingView.m in Sources */,
+				F06F5C181DD5CDB400A84FDC /* SkyHttpClient.m in Sources */,
+				F05B02451DD9A371009F6681 /* SkyRecommendedViewController.m in Sources */,
+				F0FDF4331DD9575300B97124 /* ColumnViewController.m in Sources */,
+				F06F5C111DD5CDB400A84FDC /* SkyNavigationViewController.m in Sources */,
+				F02DA2FE1DDAD78700C51491 /* SkyStatusHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F06F5BB01DD5C8F800A84FDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06F5BB11DD5C8F800A84FDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F06F5BCF1DD5C8F900A84FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F06F5BD01DD5C8F900A84FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F06F5BD21DD5C8F900A84FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B2C0FC0B598910AB10410C7 /* Pods-QuanMinTV_iPhone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = M5L265JNC2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QuanMinTV_iPhone",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/QuanMinTV_iPhone/PrefixHeader.pch";
+				INFOPLIST_FILE = QuanMinTV_iPhone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SKY.QuanMinTV-iPhone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F06F5BD31DD5C8F900A84FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA2917090A614A339B1E5587 /* Pods-QuanMinTV_iPhone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = M5L265JNC2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QuanMinTV_iPhone",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/QuanMinTV_iPhone/PrefixHeader.pch";
+				INFOPLIST_FILE = QuanMinTV_iPhone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SKY.QuanMinTV-iPhone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F06F5B9F1DD5C8F800A84FDC /* Build configuration list for PBXProject "QuanMinTV_iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06F5BCF1DD5C8F900A84FDC /* Debug */,
+				F06F5BD01DD5C8F900A84FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06F5BD11DD5C8F900A84FDC /* Build configuration list for PBXNativeTarget "QuanMinTV_iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06F5BD21DD5C8F900A84FDC /* Debug */,
+				F06F5BD31DD5C8F900A84FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F06F5B9C1DD5C8F800A84FDC /* Project object */;
+}
