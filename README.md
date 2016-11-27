@@ -15,10 +15,10 @@ iOS(直播) 高仿全民TV
 
 附上几张效果图:
 
-![](http://upload-images.jianshu.io/upload_images/1503437-ce8074842f6e1b1c.gif?imageMogr2/auto-orient/strip)
+![](http://ohatfk28l.bkt.clouddn.com/quanmintv_git1.gif)
 
 
-![](http://upload-images.jianshu.io/upload_images/1503437-e7c701294aaee510.gif?imageMogr2/auto-orient/strip)
+![](http://ohatfk28l.bkt.clouddn.com/quanmin_imae_gif_6.gif)
 
 
 ![](http://upload-images.jianshu.io/upload_images/1503437-19240e48ac65ef5c.gif?imageMogr2/auto-orient/strip)
