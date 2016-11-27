@@ -48,7 +48,7 @@ static AFHTTPSessionManager *magager;
         return;
     }
     NSString *URLString = [urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    
+
     if (type == SkyHttpRequestTypeGet)
     {
         

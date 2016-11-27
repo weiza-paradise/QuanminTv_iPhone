@@ -68,7 +68,6 @@
 		F06F5C161DD5CDB400A84FDC /* UIViewController+SLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F06F5BF91DD5CDB400A84FDC /* UIViewController+SLExtension.m */; };
 		F06F5C171DD5CDB400A84FDC /* SkyRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = F06F5BFE1DD5CDB400A84FDC /* SkyRefreshGifHeader.m */; };
 		F06F5C181DD5CDB400A84FDC /* SkyHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F06F5C031DD5CDB400A84FDC /* SkyHttpClient.m */; };
-		F06F5C191DD5CDB400A84FDC /* SkyNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F06F5C051DD5CDB400A84FDC /* SkyNetworkTool.m */; };
 		F0DF68201DDB4751007C096F /* LiveListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DF681D1DDB4751007C096F /* LiveListViewController.m */; };
 		F0DF68301DDB55CC007C096F /* SkyLoveLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DF682F1DDB55CC007C096F /* SkyLoveLiveViewController.m */; };
 		F0FDF4331DD9575300B97124 /* ColumnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FDF4321DD9575300B97124 /* ColumnViewController.m */; };
@@ -185,8 +184,6 @@
 		F06F5BFE1DD5CDB400A84FDC /* SkyRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyRefreshGifHeader.m; sourceTree = "<group>"; };
 		F06F5C021DD5CDB400A84FDC /* SkyHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyHttpClient.h; sourceTree = "<group>"; };
 		F06F5C031DD5CDB400A84FDC /* SkyHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyHttpClient.m; sourceTree = "<group>"; };
-		F06F5C041DD5CDB400A84FDC /* SkyNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyNetworkTool.h; sourceTree = "<group>"; };
-		F06F5C051DD5CDB400A84FDC /* SkyNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyNetworkTool.m; sourceTree = "<group>"; };
 		F06F5C081DD5CDB400A84FDC /* NotificationMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationMacro.h; sourceTree = "<group>"; };
 		F06F5C091DD5CDB400A84FDC /* PublicDefColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicDefColor.h; sourceTree = "<group>"; };
 		F06F5C0A1DD5CDB400A84FDC /* PublicMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicMarco.h; sourceTree = "<group>"; };
@@ -453,8 +450,6 @@
 			children = (
 				F06F5C021DD5CDB400A84FDC /* SkyHttpClient.h */,
 				F06F5C031DD5CDB400A84FDC /* SkyHttpClient.m */,
-				F06F5C041DD5CDB400A84FDC /* SkyNetworkTool.h */,
-				F06F5C051DD5CDB400A84FDC /* SkyNetworkTool.m */,
 			);
 			path = Https;
 			sourceTree = "<group>";
@@ -943,7 +938,6 @@
 				F06F5C131DD5CDB400A84FDC /* NSObject+SkyHUD.m in Sources */,
 				F06F5C161DD5CDB400A84FDC /* UIViewController+SLExtension.m in Sources */,
 				F0DF68301DDB55CC007C096F /* SkyLoveLiveViewController.m in Sources */,
-				F06F5C191DD5CDB400A84FDC /* SkyNetworkTool.m in Sources */,
 				F06F5C121DD5CDB400A84FDC /* UIDevice+SLExtension.m in Sources */,
 				F06674931DD97EF0001F8B25 /* SkyHomeDataManager.m in Sources */,
 				F0676E391DD9EA7900883451 /* SkyRecommendedHeadView.m in Sources */,
