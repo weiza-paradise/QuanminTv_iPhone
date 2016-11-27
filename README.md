@@ -15,6 +15,8 @@ iOS(直播) 高仿全民TV
 
 附上几张效果图:
 
+有的图片显示不出来,去简书看吧 ~ 
+
 ![](http://ohatfk28l.bkt.clouddn.com/quanmintv_git1.gif)
 
 
