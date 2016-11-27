@@ -48,10 +48,7 @@ static AFHTTPSessionManager *magager;
         return;
     }
     NSString *URLString = [urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    NSLog(@"******************** 请求参数 ***************************");
-    NSLog(@"请求头: %@\n请求方式: %@\n请求URL: %@\n请求param: %@\n\n",[self sharedAFManager].requestSerializer.HTTPRequestHeaders, (type == SkyHttpRequestTypeGet) ? @"GET":@"POST",urlString, parameters);
-    NSLog(@"********************************************************");
-
+    
     if (type == SkyHttpRequestTypeGet)
     {
         
