@@ -90,10 +90,9 @@ static AFHTTPSessionManager *magager;
 
         }];
     }
-    
 }
 
-+ (void)ba_startNetWorkMonitoring
++ (void)startNetWorkMonitoring
 {
     AFNetworkReachabilityManager *manager = [AFNetworkReachabilityManager sharedManager];
     [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
