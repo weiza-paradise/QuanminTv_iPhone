@@ -20,7 +20,11 @@ iOS(直播) 高仿全民TV
 
 ![](http://ohatfk28l.bkt.clouddn.com/quanmin_imae_gif_6.gif)
 
+![](http://ohatfk28l.bkt.clouddn.com/quanmin_imae_gif_7.gif)
 
+![](http://ohatfk28l.bkt.clouddn.com/quanmintv_4.gif)
+
+![](http://ohatfk28l.bkt.clouddn.com/test2.gif)
 
 最后一句: 侵立删 ~
 
