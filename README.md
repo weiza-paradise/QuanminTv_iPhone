@@ -21,12 +21,6 @@ iOS(直播) 高仿全民TV
 ![](http://ohatfk28l.bkt.clouddn.com/quanmin_imae_gif_6.gif)
 
 
-![](http://upload-images.jianshu.io/upload_images/1503437-19240e48ac65ef5c.gif?imageMogr2/auto-orient/strip)
-
-![](http://upload-images.jianshu.io/upload_images/1503437-a7f028aa49ef119d.gif?imageMogr2/auto-orient/strip)
-
-
-![](http://upload-images.jianshu.io/upload_images/1503437-3eba5cf807a864d0.gif?imageMogr2/auto-orient/strip)
 
 最后一句: 侵立删 ~
 
