@@ -19,6 +19,7 @@ iOS(直播) 高仿全民TV
 
 ![](http://ohatfk28l.bkt.clouddn.com/quanmintv_git1.gif)
 
+![](http://ohatfk28l.bkt.clouddn.com/quanmintv_2.gif)
 
 ![](http://ohatfk28l.bkt.clouddn.com/quanmin_imae_gif_6.gif)
 
